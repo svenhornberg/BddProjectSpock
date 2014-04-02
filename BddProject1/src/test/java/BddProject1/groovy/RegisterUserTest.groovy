@@ -5,7 +5,7 @@ import spock.lang.Specification;
 import BddProject1.pages.RegisterUser;
 
 class RegisterUserTest extends Specification{
- 
+	@Shared 
 	WebDriver driver
   
 	def setup() {
